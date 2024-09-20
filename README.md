@@ -20,7 +20,7 @@ Este projeto tem como objetivo a criação de um site simples e navegável sem a
 - CSS3: Para o design, layout e responsividade das páginas.
 - Para visualizar o site em funcionamento:
 
-3Faça o download ou clone este repositório.
+Faça o download ou clone este repositório.
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
