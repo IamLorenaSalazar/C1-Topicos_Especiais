@@ -3,7 +3,7 @@
 Este projeto tem como objetivo a criação de um site simples e navegável sem a utilização de frameworks de desenvolvimento web. O tema escolhido para o site é Setembro Amarelo, que trata da conscientização sobre a prevenção ao suicídio e a promoção da saúde mental.
 
 Descrição do Projeto: 
-Este site é composto por 5 páginas interligadas que podem ser navegadas entre si. Para o layout e estilo, foram utilizadas técnicas de HTML5 e CSS3. A estrutura base das páginas foi inspirada nos exemplos do Bootstrap, mas sem o uso direto deste framework. Todo o design foi feito de forma manual, utilizando conceitos básicos de layout, navegação e responsividade.
+- Este site é composto por 5 páginas interligadas que podem ser navegadas entre si. Para o layout e estilo, foram utilizadas técnicas de HTML5 e CSS3. A estrutura base das páginas foi inspirada nos exemplos do Bootstrap, mas sem o uso direto deste framework. Todo o design foi feito de forma manual, utilizando conceitos básicos de layout, navegação e responsividade.
 
 Páginas do site:
 Home: Introdução ao Setembro Amarelo, com informações básicas sobre o movimento e sua importância.
