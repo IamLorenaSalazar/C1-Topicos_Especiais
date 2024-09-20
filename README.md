@@ -11,23 +11,7 @@ História do Setembro Amarelo: Detalhes históricos sobre a origem do movimento 
 Dicas de Saúde Mental: Conteúdo sobre cuidados com a saúde mental e prevenção ao suicídio.
 Depoimentos: Histórias e relatos de pessoas que foram impactadas pela campanha ou por questões relacionadas à saúde mental.
 Contato: Formulário simples para que os usuários possam entrar em contato e obter mais informações sobre o movimento.
-Estrutura do Projeto
-O projeto segue uma estrutura simples de diretórios:
 
-bash
-Copiar código
-/
-│── index.html          # Página inicial (Home)
-│── historia.html       # Página sobre a história do Setembro Amarelo
-│── dicas.html          # Página com dicas de saúde mental
-│── depoimentos.html    # Página com depoimentos
-│── contato.html        # Página de contato
-│
-├── /css
-│   └── style.css       # Arquivo de estilos (CSS)
-│
-└── /img
-    └── ...             # Imagens utilizadas no site
 Tecnologias Utilizadas
 HTML5: Para a estruturação das páginas e conteúdo.
 CSS3: Para o design, layout e responsividade das páginas.
@@ -35,10 +19,11 @@ Como Executar o Projeto
 Para visualizar o site em funcionamento:
 
 Faça o download ou clone este repositório.
-bash
-Copiar código
+
 git clone https://github.com/seu-usuario/seu-repositorio.git
+
 Navegue até o diretório do projeto e abra o arquivo index.html em um navegador de sua escolha.
+
 Personalização
 Embora o site seja básico, você pode personalizá-lo adicionando seu próprio conteúdo e estilos. As páginas são editáveis e podem ser adaptadas conforme sua necessidade, sendo uma boa base para projetos simples e didáticos.
 
