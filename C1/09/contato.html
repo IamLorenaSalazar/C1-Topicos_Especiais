@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Setembro Amarelo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ 
+    <link rel="icon" href="..\img\icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <script src="script"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+        
+        <div class="container">
+             <!-- Ícone e foto no canto esquerdo -->
+             <a class="navbar-brand" href="#">
+                <img src="..\img\logo2.png" alt="Foto">
+                        </a>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="Videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="EncontreAjuda.html">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+
+        <h2 class="text-center"> Quer mais informações? Fale com a gente.</h2>
+        <h2 class="text-center"> Serviço: Campanha Setembro Amarelo® </h2>
+
+        <div class="cards">
+            <div class="card">
+              <strong>Associação Brasileira de Psiquiatria – ABP</strong><br>
+              <i>(21) 2199-7500</i><br>
+              <i><a href="mailto:setembroamarelo@abp.org.br">setembroamarelo@abp.org.br</a></i>
+            </div>
+            <div class="card">
+              <strong>Conselho Federal de Medicina –    CFM    </strong><br>
+              <i>(61) 3445-5940</i><br>
+              <i><a href="mailto:imprensa@portalmedico.org.br">imprensa@portalmedico.org.br</a></i></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
+
+
+    <!-- Carrossel de Imagens -->
+    <section class="container my-5">
+        <h2 class="text-center">Imagens da Campanha</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://static.wixstatic.com/media/26b667_a4a7d98e6f0c4c34a5bed12a1bc4b023~mv2.jpg/v1/fill/w_986,h_658,al_c,q_85,enc_auto/26b667_a4a7d98e6f0c4c34a5bed12a1bc4b023~mv2.jpg" class="d-block w-100" alt="Setembro Amarelo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.wixstatic.com/media/26b667_7ef8eea7b924463fad72b8042d2557a0~mv2.jpg/v1/fill/w_1029,h_772,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/26b667_7ef8eea7b924463fad72b8042d2557a0~mv2.jpg" class="d-block w-100" alt="Setembro Amarelo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.wixstatic.com/media/26b667_c6d8f6c0d4a54e3488e115f991fb025d~mv2.jpg/v1/fill/w_935,h_624,al_c,q_85,enc_auto/26b667_c6d8f6c0d4a54e3488e115f991fb025d~mv2.jpg" class="d-block w-100" alt="Setembro Amarelo 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+        <div class="container">
+            <br/>
+            <p>&copy; <strong> Blog Setembro Amarelo</strong><strong> -  Uma Campanha</strong></p>
+            
+            <img src="..\img\ABP.png" class="navbar-foto" alt="ABP">
+            <img src="..\img\CFM.png" class="navbar-foto" alt="CFM">
+            <p></p>
+            <br/>
+        </div>
+             
+    </footer>
+
+
+<!-- Bootstrap JS + Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,311 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+
+}
+
+/* Navbar */
+.navbar {
+
+    padding: 40px;
+    background-image: url('../img/head_10.png'); /* Caminho para sua imagem de fundo */
+    background-size: auto; /* Ajusta a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(236, 215, 113); /* Cor de fundo branca */
+
+}
+
+.navbar-nav .nav-item {
+    transition: transform 0.3s ease, background-color 0.8s ease, color 0.8s ease;
+}
+
+.navbar-nav .nav-item:hover {
+    transform: scale(1.1); /* Zoom */
+    background-color: rgb(236, 215, 113); /* Cor de fundo branca */
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Hero Section */
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Blog Posts */
+h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Efeito de troca de cor ao passar o curso no botão das informações */
+.btn-warning {
+    background-color: #ffdd57;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #f4ca42;
+}
+
+/* Carrossel */
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-indicators button {
+    background-color: #ffdd57;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffdd57;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+}
+
+footer p, footer a {
+    color: #ffdd57;
+    font-size: 1.1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Geral */
+.hero-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+/* Destaque em amarelo com sublinhado */
+.highlight {
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: #ffdd57;
+    text-decoration-thickness: 3px; /* Espessura do sublinhado */
+}
+
+/* Texto e imagem no centro */
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.text-left,
+.text-right {
+    width: 50%;
+    padding: 10px;
+}
+
+.text-left h2,
+.text-right h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Efeito de fundo amarelo */
+.highlight-bg {
+    background-color: #ffdd57;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    width: 190px; /* Ajuste a largura da imagem conforme necessário */
+}
+
+.navbar-foto img {
+    width: 90px; /* Ajuste a largura da imagem conforme necessário */
+}
+
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    .hero-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-left,
+    .text-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .yellow-ribbon {
+        margin: 20px 0;
+    }
+}
+
+
+
+/* Estilo para o cursor piscando */
+.typewriter::after {
+    content: '|';
+    font-weight: bold;
+    color: #ffdd57;
+    animation: blink 1s step-end infinite;
+
+}
+
+/* Animação do cursor piscando */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Zoom ao passar o mouse */
+    box-shadow: 0 8px 16px #fff2be /* Sombra mais forte ao passar o mouse */
+  }
+  
+  .card strong {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card i {
+    display: block;
+    font-style: normal;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .card a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+
+  .video-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
